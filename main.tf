@@ -1,5 +1,5 @@
   provider "aws" {
-       region = "ap-south-1"
+       region = "ap-southeast-2"
 }
 resource "aws_s3_bucket" "sample"{
         bucket = "terraformbucket123"
