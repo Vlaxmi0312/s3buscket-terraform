@@ -1,13 +1,9 @@
-   provider "aws" {
-    region = "ap-southeast-2"  
+  provider "aws" {
+       region = "ap-south-1"
 }
-
-resource "aws_s3_bucket" "my_bucket" {
-  bucket = "vijaya_s3_bucket"
-  acl    = "private"
-
-  tags = {
-    Name        = "vijaya_s3_bucket"
-    Environment = "Development"
-  }
+resource "aws_s3_bucket" "sample"{
+        bucket = "terraformbucket123"
+        tags = {
+               name = "terraformbucket123"
+}
 }
