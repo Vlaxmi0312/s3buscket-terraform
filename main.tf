@@ -2,8 +2,8 @@
        region = "ap-southeast-2"
 }
 resource "aws_s3_bucket" "sample"{
-        bucket = "terraformbucket123"
+        bucket = "terraforvijaya123"
         tags = {
-               name = "terraformbucket123"
+               name = "terraforvijaya123"
 }
 }
