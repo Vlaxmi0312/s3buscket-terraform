@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Vlaxmi0312/s3buscket-terraform.git'
+                 git branch: 'main', url: 'https://github.com/Vlaxmi0312/s3buscket-terraform.git'
             }
         }
         stage('Terraform Init') {
